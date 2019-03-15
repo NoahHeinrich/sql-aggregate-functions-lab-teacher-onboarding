@@ -1,7 +1,7 @@
 ## Code your solution below. Note that your SQL queries should be in quotation marks. 
 
 def highest_student_gpa
-  "SELECT * FROM Students ORDER BY Gpa;"
+  "SELECT Gpa FROM Students ORDER BY Gpa;"
 end
 
 def lowest_student_gpa
